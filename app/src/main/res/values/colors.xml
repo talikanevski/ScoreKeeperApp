@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="button_pressed">#FF5722
+    </color>
+    <color name="textColor">#000000</color>
+    <color name="textColorForScore">#FFF59D</color>
+    <color name="backgroundForWin">#2196F3</color>
+    <color name="backgroundColorForFault">#FFF59D</color>
+    <color name="backgroundColorForRedCard1">#EF5350</color>
+    <color name="backgroundForRedCard2">#B71C1C</color>
+</resources>

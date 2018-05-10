@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">ScoreKeeperApp</string>
+    <string name="player_1">Player 1</string>
+    <string name="fontForPlayer">sans-serif-medium</string>
+    <string name="fontForScore">sans-serif-light</string>
+    <string name="win">WIN</string>
+    <string name="fault">FAULT</string>
+    <string name="red_card_2">Red Card 2</string>
+    <string name="red_card_1">Red Card 1</string>
+    <string name="play_again">Play Again</string>
+</resources>
