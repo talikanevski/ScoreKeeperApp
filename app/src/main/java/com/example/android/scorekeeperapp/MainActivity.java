@@ -43,6 +43,13 @@ public class MainActivity extends AppCompatActivity {
             Toast.makeText(this, "We have a winner!",
                     Toast.LENGTH_LONG).show();
         }
+
+        if (score<=0){
+            score = 0;
+            Toast.makeText(this, "You can not go below zero!",
+                    Toast.LENGTH_SHORT).show();
+        }
+
         scoreView1.setText(String.valueOf(score));
     }
 
@@ -55,6 +62,11 @@ public class MainActivity extends AppCompatActivity {
             Toast.makeText(this, "We have a winner!",
                     Toast.LENGTH_LONG).show();
         }
+        if (score<=0){
+            score = 0;
+            Toast.makeText(this, "You can not go below zero!",
+                    Toast.LENGTH_SHORT).show();
+        }
         scoreView2.setText(String.valueOf(score));
     }
 
@@ -62,7 +74,7 @@ public class MainActivity extends AppCompatActivity {
 
         switch (v.getId()) {
 
-            //buttons of player 1
+             //buttons of player 1
 
             case R.id.plus1PointBenefitPlayer1: //"win" button
                 scorePlayer1 = scorePlayer1 + 1;
